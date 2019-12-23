@@ -144,7 +144,7 @@ disable404 = false
         position = "Workshop Facilitator"
         dates = "2018 - Present"
         company = "SFU Scientific Programming Group "
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+        details = "**I teach workshops about R and Bioinformatics.** Several examples include "Introduction to Bioinformatics with R" and "Heatmaps in R", each around 1.5hrs in length. My teaching philosophy includes teaching a small but very practical skill very well and being very hands on with the material. I have also taught workshops with RLadies Vancouver and other organizations- all my materials are available on my github at ."
 
         [[params.jobs.list]]
         position = "Research Assistant"

@@ -144,13 +144,13 @@ disable404 = false
         position = "Workshop Facilitator"
         dates = "2018 - Present"
         company = "SFU Scientific Programming Group "
-        details = "**I teach workshops about R and Bioinformatics.** Several examples include Introduction to Bioinformatics with R and Heatmaps in R, each around 1.5hrs in length. My teaching philosophy includes teaching a small but very practical skill very well and being very hands on with the material. I have also taught workshops with RLadies Vancouver and other organizations- all my materials are available on my github."
+        details = "**I teach workshops about R and Bioinformatics.** Several examples include "Introduction to Bioinformatics with R" and "Heatmaps in R", each around 1.5hrs in length. My teaching philosophy includes teaching a small but very practical skill very well and being very hands on with the material. I have also taught workshops with RLadies Vancouver and other organizations- all my materials are available on my github."
 
-        [[params.jobs.list]]
+     [[params.jobs.list]]
         position = "R Shiny App Developer"
         dates = " January 2020 – April 2020"
         company = "Plastics Lab, Ocean Wise"
-      	 details = "As an intern for the Plastics Lab I develop R Shiny applications related to microplastics in textiles for decision makers. I have introduced secure, reliable, and fast deployment of the application while also making the data engaging and informative. Using my unique background I promote behavioural change through cognitive psychology principles."
+	 details = "As an intern for the Plastics Lab I develop R Shiny applications related to microplastics in textiles for decision makers. I have introduced secure, reliable, and fast deployment of the application while also making the data engaging and informative. Using my unique background I promote behavioural change through cognitive psychology principles."
       
         [[params.jobs.list]]
         position = "Research Assistant"

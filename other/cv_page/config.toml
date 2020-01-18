@@ -132,7 +132,7 @@ disable404 = false
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "I use R, Bash, and Python to build open source tools for bioinformaticians and behavioural neuroscientists. My community work includes organizing for RLadies Vancouver and sitting as the current Chair for the Vancouver Datajam, as well as running workshops with the SFU Scientific Programming Group."
+        summary = "I use R, Bash, and Python to build open source tools for bioinformaticians and behavioural neuroscientists under the BiocTools name and internally within Simon Fraser University. I began doing R package development, team management, and repo management after years of laboratory experience in biobehavioural research labs. My most recent and notable achievement includes leading the winning team at bioinformatics hackathon Hackseq'19 with my project BiocSwirl, and got my tech start working as a Linux SysAdmin in the nonprofit sector.  View my CV at: http://bit.do/lnc-cv"
 
     # Experiences section
     [params.experiences]
@@ -144,25 +144,26 @@ disable404 = false
         position = "Workshop Facilitator"
         dates = "2018 - Present"
         company = "SFU Scientific Programming Group "
-        details = "**I teach workshops about R and Bioinformatics.** Several examples include "Introduction to Bioinformatics with R" and "Heatmaps in R", each around 1.5hrs in length. My teaching philosophy includes teaching a small but very practical skill very well and being very hands on with the material. I have also taught workshops with RLadies Vancouver and other organizations- all my materials are available on my github at ."
+        details = "**I teach workshops about R and Bioinformatics.** Several examples include "Introduction to Bioinformatics with R" and "Heatmaps in R", each around 1.5hrs in length. My teaching philosophy includes teaching a small but very practical skill very well and being very hands on with the material. I have also taught workshops with RLadies Vancouver and other organizations- all my materials are available on my github."
 
+     [[params.jobs.list]]
+        position = "R Shiny App Developer"
+        dates = " January 2020 – April 2020"
+        company = "Plastics Lab, Ocean Wise"
+	 details = "As an intern for the Plastics Lab I develop R Shiny applications related to microplastics in textiles for decision makers. I have introduced secure, reliable, and fast deployment of the application while also making the data engaging and informative. Using my unique background I promote behavioural change through cognitive psychology principles."
+      
         [[params.jobs.list]]
         position = "Research Assistant"
         dates = "2016 - Present"
         company = "Sleep and Circadian Neuroscience Lab, Dr. Ralph Mistlberger"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+        details = "For most of my duration in the lab I worked on interdisciplinary research projects doing laboratory and animal work. Later on I did data cleaning, basic data analyses, linear mixed modelling, and data visualization on behavioural time-series data in R. This also involved teaching R, consultation, independent research, redesigning code, and recruiting colleagues to meet tight deadlines."
 
-        [[params.jobs.list]]
+
+  [[params.jobs.list]]
         position = "Research Assistant"
         dates = "2015 - Present"
         company = "Behavioural Endocrinology Lab, Dr. Neil V. Watson"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
-
-        [[params.jobs.list]]
-        position = "Co-Investigator"
-        dates = "2016"
-        company = "Vancouver Women’s Health Collective"
-        details = "Community funded research for work investigating resource allocation for at-risk women in Downtown Eastside Vancouver. *Principal investigator: France-Emanuelle Jolie*"
+        details = "After working as understudy to the lab manager and while performing lab tech duties, I took the initiative to update obsolete practices to improve data reproducibility and archiving. Currently I develop a reproducible workflow for current and future graduate students in an R package that includes Qualtrics survey porting, variable coding, data preparation, ELISA data analysis, biobehavioural data analysis, and data visualization."
 
 
     # Projects section
@@ -170,7 +171,6 @@ disable404 = false
         enable = true
         icon = "fa-archive"
         title = "Projects"
-        intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
 
         [[params.projects.list]]
         title = "BiocSwirl"
@@ -200,6 +200,10 @@ disable404 = false
                 
         [[params.skills.list]]
         skill = "Bash"
+        level = "75%"
+
+      [[params.skills.list]]
+        skill = "Git"
         level = "75%"
 
         [[params.skills.list]]

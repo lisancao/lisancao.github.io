@@ -1,0 +1,238 @@
+# Page settings
+
+baseurl = "http://lisancao.github.io"
+languageCode = "en-us"
+title = "Lisa N. Cao CV"
+theme = "hugo-orbit-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+# Do not build files for websites. Need them? Set to false
+disableRSS = false
+disableSitemap = false
+disable404 = false
+
+[params]
+
+# Meta
+    description = "Hugo Responsive Resume/CV Theme for Developers"
+    author = "Pavel Kanyshev"
+
+# Theme styles
+
+    # The original template comes with 6 colour schemes. You may choose styles below.
+    # "styles.css", "styles-2.css", "styles-3.css", "styles-4.css", "styles-5.css", "styles-6.css"
+    # are available. Also the source LESS files are included so
+    # it’s quick and easy to change the styling and colour scheme.
+
+    styles = "styles-3.css"
+
+# Sidebar sections
+
+    # Profile section
+    [params.profile]
+        name = "Lisa N. Cao"
+        tagline = "Undergraduate Student, R & Linux Enthusiast"
+        avatar = "lisancao.jpg"
+
+    # Contact section
+    [params.contact]
+        enable = true
+
+        [[params.contact.list]]
+        class = "email"
+        icon = "fa-envelope"
+        url = "mailto: lisanatashacao@gmail.com"
+        title = "lisanatashacao@gmail.com"
+
+        [[params.contact.list]]
+        class = "phone"
+        icon = "fa-phone"
+        url = "tel:+17789994798"
+        title = "+17789994798"
+
+        [[params.contact.list]]
+        class = "website"
+        icon = "fa-globe"
+        url = "lisancao.github.io"
+        title = "lisancao.github.io"
+
+        [[params.contact.list]]
+        class = "linkedin"
+        icon = "fa-linkedin"
+        url = "//linkedin.com/in/lisancao"
+        title = "linkedin.com/in/lisancao"
+
+        [[params.contact.list]]
+        class = "github"
+        icon = "fa-github"
+        url = "//github.com/lisancao"
+        title = "github.com/lisancao"
+
+        [[params.contact.list]]
+        class = "twitter"
+        icon = "fa-twitter"
+        url = "//twitter.com/lisancao"
+        title = "@lisancao"
+
+    # Education section
+    [params.education]
+        enable = true
+        title = "Education"
+
+        [[params.education.list]]
+        degree = "B.A. in Psychology"
+        college = "Simon Fraser University"
+        dates = "2012 - Present"
+
+        [[params.education.list]]
+        degree = "Dogwood Diploma, IB Certificate"
+        college = "Britannia Secondary School"
+        dates = "2007 - 2012"
+
+    # Languages section
+    [params.language]
+        enable = true
+        title = "Languages"
+
+        [[params.language.list]]
+        language = "English"
+        level = "Advanced"
+
+        [[params.language.list]]
+        language = "Vietnamese"
+        level = "Beginner"
+
+    # Interests section
+    [params.interests]
+        enable = true
+        title = "Interests"
+        
+        [[params.interests.list]]
+        interest = "Vancouver Datajam"
+        
+        [[params.interests.list]]
+        interest = "SFU Scientific Programming"
+        
+        [[params.interests.list]]
+        interest = "RLadies Vancouver"
+        
+        [[params.interests.list]]
+        interest = "PyLadies Vancouver"
+
+        [[params.interests.list]]
+        interest = "Canadian Association of Neuroscience"
+
+
+# Main body sections
+
+    # You may use markdown in summary, details and intro fields. But don't overdose, it's resume!:)
+
+    # Summary section
+    [params.summary]
+        enable = true
+        icon = "fa-user"
+        title = "Career Profile"
+        summary = "I use R, Bash, and Python to build open source tools for bioinformaticians and behavioural neuroscientists under the BiocTools name and internally within Simon Fraser University. I began doing R package development, team management, and repo management after years of laboratory experience in biobehavioural research labs. My most recent and notable achievement includes leading the winning team at bioinformatics hackathon Hackseq'19 with my project BiocSwirl, and got my tech start working as a Linux SysAdmin in the nonprofit sector.  View my CV at: http://bit.do/lnc-cv"
+
+    # Experiences section
+    [params.experiences]
+        enable = true
+        icon = "fa-briefcase"
+        title = "Experiences"
+
+        [[params.jobs.list]]
+        position = "Workshop Facilitator"
+        dates = "2018 - Present"
+        company = "SFU Scientific Programming Group "
+        details = "**I teach workshops about R and Bioinformatics.** Several examples include "Introduction to Bioinformatics with R" and "Heatmaps in R", each around 1.5hrs in length. My teaching philosophy includes teaching a small but very practical skill very well and being very hands on with the material. I have also taught workshops with RLadies Vancouver and other organizations- all my materials are available on my github."
+
+     [[params.jobs.list]]
+        position = "R Shiny App Developer"
+        dates = " January 2020 – April 2020"
+        company = "Plastics Lab, Ocean Wise"
+	 details = "As an intern for the Plastics Lab I develop R Shiny applications related to microplastics in textiles for decision makers. I have introduced secure, reliable, and fast deployment of the application while also making the data engaging and informative. Using my unique background I promote behavioural change through cognitive psychology principles."
+      
+        [[params.jobs.list]]
+        position = "Research Assistant"
+        dates = "2016 - Present"
+        company = "Sleep and Circadian Neuroscience Lab, Dr. Ralph Mistlberger"
+        details = "For most of my duration in the lab I worked on interdisciplinary research projects doing laboratory and animal work. Later on I did data cleaning, basic data analyses, linear mixed modelling, and data visualization on behavioural time-series data in R. This also involved teaching R, consultation, independent research, redesigning code, and recruiting colleagues to meet tight deadlines."
+
+
+  [[params.jobs.list]]
+        position = "Research Assistant"
+        dates = "2015 - Present"
+        company = "Behavioural Endocrinology Lab, Dr. Neil V. Watson"
+        details = "After working as understudy to the lab manager and while performing lab tech duties, I took the initiative to update obsolete practices to improve data reproducibility and archiving. Currently I develop a reproducible workflow for current and future graduate students in an R package that includes Qualtrics survey porting, variable coding, data preparation, ELISA data analysis, biobehavioural data analysis, and data visualization."
+
+
+    # Projects section
+    [params.projects]
+        enable = true
+        icon = "fa-archive"
+        title = "Projects"
+
+        [[params.projects.list]]
+        title = "BiocSwirl"
+        url = "https://github.com/biocswirl-dev-team/BiocSwirl"
+        tagline = "In-depth SwirlStats style courses used to teach bioinformatics workflows in R using an interactive and easy to digest format."
+
+        [[params.projects.list]]
+        title = "BiocTerm"
+        url = "https://github.com/biocswirl-dev-team/BiocTerm"
+        tagline = "A highly configurable, lightweight and feature rich terminal interface with multi-language support for conducting bioinformatics."
+        
+        [[params.projects.list]]
+        title = "behavendoR"
+        url = "https://github.com/lisancao/behavendoR"
+        tagline = "R package used to introduce statistical workflows and reproducibility into the Behavioural Endocrinology field."
+
+
+    # Skills section
+    [params.skills]
+        enable = true
+        icon = "fa-rocket"
+        title = "Technical, Laboratory, & Organizational Skills"
+
+        [[params.skills.list]]
+        skill = "R"
+        level = "80%"
+                
+        [[params.skills.list]]
+        skill = "Bash"
+        level = "75%"
+
+      [[params.skills.list]]
+        skill = "Git"
+        level = "75%"
+
+        [[params.skills.list]]
+        skill = "Python"
+        level = "65%"
+
+        [[params.skills.list]]
+        skill = "Team-Leading"
+        level = "90%"              
+        
+        [[params.skills.list]]
+        skill = "Project Management"
+        level = "85%"      
+        
+        
+        [[params.skills.list]]
+        skill = "Wet Lab Skills (Neuroscience methods)"
+        level = "65%"
+        
+
+
+    # Footer section
+
+    # The original template is released under the Creative Commons Attribution 3.0 License.
+    # Please keep the original attribution link when using for your own project.
+    # If you'd like to use the template without the attribution,
+    # you can check out other license options via template author's website: themes.3rdwavemedia.com
+    # 
+    # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
+
+    [params.footer]
+        copyright = ""
